@@ -1,5 +1,5 @@
 const inquirer = require('./node_modules/inquirer');
-const fs = require('./node_modules/fs')
+const fs = require('fs')
 const genMD = require("./utils/genMD")
 
 
@@ -10,7 +10,7 @@ const questions = [{
   name: "title",
 }, {
   type: "input",
-  message: "How would one describe thy project?",
+  message: "How would thou describe thy project?",
   name: "description"
 }, {
   title: "input",
