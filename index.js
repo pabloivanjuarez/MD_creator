@@ -1,3 +1,8 @@
+const inquirer = require('./node_modules/inquirer');
+const fs = require('./node_modules/fs')
+const genMD = require("./utils/genMD")
+
+
 // array of questions for user
 const questions = [
 
