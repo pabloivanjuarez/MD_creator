@@ -25,7 +25,7 @@ const questions = [{
 }, {
   title: "input",
   message: "What is thy name?",
-  name: "name",
+  name: "author",
   validate: function validateName(name) {
     console.log("/n Please enter thy name to continue...");
     return name !== "";
