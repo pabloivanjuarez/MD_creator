@@ -13,17 +13,17 @@ const questions = [{
     message: "How would thou describe thy project?",
     name: "description"
   }, {
-    title: "input",
+    type: "input",
     message: "What command should be run in order to install thy dependencies?",
     name: "installation",
     default: "npm install"
   }, {
-    title: "list",
+    type: "list",
     message: "Which license will thy use?",
     name: "license",
     choices: ["none", "MIT", "APACHE", "GPL", "BSD"]
   }, {
-    title: "input",
+    type: "input",
     message: "What is thy name?",
     name: "author",
     validate: function validateName(name) {
@@ -37,7 +37,7 @@ const questions = [{
   },
   {
     type: "input",
-    message: "Thou have collaborators? Thou shall type thy collaborators names",
+    message: "Thou have collaborators? Thou shall type thy collaborators names, if so.",
     name: "collab"
   }
 ];
