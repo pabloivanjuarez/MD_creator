@@ -6,6 +6,14 @@ const genMD = require("./utils/genMD")
 // array of questions for user
 const questions = [{
     type: "input",
+    message: "What is thy name?",
+    name: "author",
+    validate: function validateName(name) {
+      console.log("/n Please enter thy name to continue...");
+      return name !== "";
+    }
+  }, {
+    type: "input",
     message: "What is thy project name?",
     name: "title",
   }, {
@@ -22,14 +30,6 @@ const questions = [{
     message: "Which license will thy use?",
     name: "license",
     choices: ["none", "MIT", "APACHE", "GPL", "BSD"]
-  }, {
-    type: "input",
-    message: "What is thy name?",
-    name: "author",
-    validate: function validateName(name) {
-      console.log("/n Please enter thy name to continue...");
-      return name !== "";
-    }
   }, {
     type: "input",
     message: "what is thy Github Username?",
