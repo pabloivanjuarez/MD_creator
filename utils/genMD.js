@@ -42,7 +42,7 @@ function generateMarkdown(data) {
   ## Contributing
 
   ## Questions
-
+  email and link to git hub go here
 `;
 }
 

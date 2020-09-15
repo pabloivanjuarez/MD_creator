@@ -1,10 +1,9 @@
+//
 const inquirer = require('./node_modules/inquirer');
 const fs = require('fs')
 const genMD = require("./utils/genMD");
-// const {
-// verify
-// } = require('crypto');
 
+// validation function
 function verInput(name) {
   if (name === '') {
     return "Answer thy question, or perish!";
@@ -18,7 +17,6 @@ const questions = [{
     message: "What is thy name?",
     name: "author",
     validate: verInput
-
   },
   {
     type: "input",
@@ -55,9 +53,10 @@ const questions = [{
     message: "How will thee test thy project?",
     name: "test",
     validate: verInput
+  }, {
+
   }
 ];
-
 
 // function to write README file
 function writeToFile(fileName, data) {
