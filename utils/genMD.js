@@ -1,4 +1,3 @@
-let contra = "*[Contributing](#contributing)"
 const npm = "```npm i```"
 // function to generate markdown for README\
 function generateMarkdown(data) {
@@ -12,15 +11,16 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   
-  *[Installation](#installastion)
+  * [Installation](#installastion)
 
-  *[Usage](#usage)
+  * [Usage](#usage)
 
-  *[Tests](#tests)
+  * [Tests](#tests)
 
-  *[Questions](#questions)
+  * [Contributing](#contributing)
 
-  ${contra}
+  * [Questions](#questions)
+
 
   ## Installation
 
@@ -29,8 +29,13 @@ function generateMarkdown(data) {
   ${npm}
 
   ## Usage
+ 
+  //where pics gifs go for the usage
+
+  ## Tests
 
   
+
 
 `;
 }
