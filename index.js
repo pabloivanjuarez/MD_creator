@@ -1,9 +1,9 @@
 const inquirer = require('./node_modules/inquirer');
 const fs = require('fs')
 const genMD = require("./utils/genMD");
-const {
-  verify
-} = require('crypto');
+// const {
+// verify
+// } = require('crypto');
 
 function verInput(name) {
   if (name === '') {
@@ -50,6 +50,11 @@ const questions = [{
     message: "Which license will thy use?",
     name: "license",
     choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "none"]
+  }, {
+    type: "input",
+    message: "How will thee test thy project?",
+    name: "test",
+    validate: verInput
   }
 ];
 

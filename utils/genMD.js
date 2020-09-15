@@ -1,6 +1,9 @@
-const npm = "```npm i```"
 // function to generate markdown for README\
 function generateMarkdown(data) {
+  //
+  const npm = "```npm i```"
+  testText = data.test
+  let test = "```" + testText + "```"
   return `
   # ${data.title}
   ![License Badge](https://img.shields.io/badge/License-${data.license}-blue) ![Code Badge](https://img.shields.io/badge/JavaScript-100%25-green)
@@ -34,8 +37,11 @@ function generateMarkdown(data) {
 
   ## Tests
 
-  
+  ${test}
 
+  ## Contributing
+
+  ## Questions
 
 `;
 }
