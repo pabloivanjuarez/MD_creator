@@ -13,9 +13,8 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
   ![License Badge](https://img.shields.io/badge/License-${data.license}-blue) ![Code Badge](https://img.shields.io/badge/JavaScript-100%25-green)
+  
   ## Description
-
-  ## ${data.author}
 
   ${data.description}
 
@@ -36,7 +35,7 @@ function generateMarkdown(data) {
 
   To install necessary dependencies, run the following command:
   
-  ###   ${npm}
+  ### ${npm}
 
   ## Usage
  
@@ -44,14 +43,14 @@ function generateMarkdown(data) {
 
   ## Tests
 
-  ${test}
+  ### ${test}
 
   ## Contributing
 
   ## Questions
   
   If you have any questions about the project, open an issue or contact me directly through my [email](mailto:${data.email}).
-  You can find more of my work at [${data.author}](https://github.com/${data.userName}).
+  You can find more of my work at [Git Hub](https://github.com/${data.userName}).
 
 `;
 }

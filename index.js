@@ -57,7 +57,7 @@ const questions = [{
     type: "input",
     message: "How will thee test thy project?",
     name: "test",
-    default: "npm run",
+    default: "npm run test",
     validate: verInput
   }
 ];
