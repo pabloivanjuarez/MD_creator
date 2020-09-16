@@ -16,6 +16,8 @@ function generateMarkdown(data) {
 
   ${data.description}
 
+
+---
   ## Table of Contents
   
   * [Installation](#installastion)
@@ -29,24 +31,33 @@ function generateMarkdown(data) {
   * [Questions](#questions)
 
 
+---
   ## Installation
 
   To install necessary dependencies, run the following command:
   
   ### ${npm}
 
+
+---
   ## Usage
  
   Space created for your ${data.usage}
 
+
+---  
   ## Tests
 
   ### ${test}
 
+
+---  
   ## Contributing
 
   ${data.collab}
 
+  
+---  
   ## Questions
   
   If you have any questions about the project, open an issue or contact me directly through my [email](mailto:${data.email}).
