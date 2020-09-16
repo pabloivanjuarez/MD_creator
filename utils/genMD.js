@@ -37,6 +37,7 @@ function generateMarkdown(data) {
 
   ## Usage
  
+  Space created for your ${data.usage}
 
   ## Tests
 
