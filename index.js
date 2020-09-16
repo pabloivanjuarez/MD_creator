@@ -43,6 +43,10 @@ const questions = [{
     name: "description",
     validate: verInput
   }, {
+    type: "list",
+    message: "How would thy like to display thy project's usage?",
+    choices: ["Text", "Media", "Both"]
+  }, {
     type: "input",
     message: "What command should be run in order to install thy dependencies?",
     name: "installation",

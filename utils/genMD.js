@@ -39,13 +39,14 @@ function generateMarkdown(data) {
 
   ## Usage
  
-  //where pics gifs go for the usage
 
   ## Tests
 
   ### ${test}
 
   ## Contributing
+
+  ${data.collab}
 
   ## Questions
   
