@@ -17,6 +17,11 @@ const questions = [{
     message: "What is thy name?",
     name: "author",
     validate: verInput
+  }, {
+    type: "input",
+    message: "What is thy e-mail address?",
+    name: "email",
+    validate: verInput
   },
   {
     type: "input",
@@ -26,7 +31,7 @@ const questions = [{
   }, {
     type: "input",
     message: "what is thy Github Username?",
-    name: "username",
+    name: "userName",
     validate: verInput
   }, {
     type: "input",
@@ -52,9 +57,8 @@ const questions = [{
     type: "input",
     message: "How will thee test thy project?",
     name: "test",
+    default: "npm run",
     validate: verInput
-  }, {
-
   }
 ];
 

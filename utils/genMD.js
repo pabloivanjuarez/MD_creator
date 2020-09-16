@@ -1,16 +1,23 @@
 // function to generate markdown for README\
 function generateMarkdown(data) {
-  //
-  const npm = "```npm i```"
+
+  //data pulled from index.js
   testText = data.test
+
+
+  // strings to be placed withing .md
+  const npm = "```npm i```"
   let test = "```" + testText + "```"
+
+
   return `
   # ${data.title}
   ![License Badge](https://img.shields.io/badge/License-${data.license}-blue) ![Code Badge](https://img.shields.io/badge/JavaScript-100%25-green)
   ## Description
 
   ## ${data.author}
-      ###${data.description}
+
+  ${data.description}
 
   ## Table of Contents
   
@@ -29,7 +36,7 @@ function generateMarkdown(data) {
 
   To install necessary dependencies, run the following command:
   
-  ${npm}
+  ###   ${npm}
 
   ## Usage
  
@@ -42,7 +49,10 @@ function generateMarkdown(data) {
   ## Contributing
 
   ## Questions
-  email and link to git hub go here
+  
+  If you have any questions about the project, open an issue or contact me directly through my [email](mailto:${data.email}).
+  You can find more of my work at [${data.author}](https://github.com/${data.userName}).
+
 `;
 }
 
