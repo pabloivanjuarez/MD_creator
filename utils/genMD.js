@@ -4,11 +4,9 @@ function generateMarkdown(data) {
   //data pulled from index.js
   testText = data.test
 
-
   // strings to be placed withing .md
   const npm = "```npm i```"
   let test = "```" + testText + "```"
-
 
   return `
   # ${data.title}
@@ -56,7 +54,4 @@ function generateMarkdown(data) {
 `;
 }
 
-// this is where the github api func
-
-// make sure to use .then when gen api call info from github
 module.exports = generateMarkdown;
