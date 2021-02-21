@@ -1,10 +1,12 @@
 
   # README
-  ![License Badge](https://img.shields.io/badge/License-MIT-blue) ![Code Badge](https://img.shields.io/badge/JavaScript-100%25-green)
+  ![License Badge](https://img.shields.io/badge/License-MIT-blue) ![Code Badge](https://img.shields.io/badge/JavaScript-100%25-yellow)
   
   ## Description
 
   Here we have an easy to use CLI program using NodeJs to create a .md file. Technologies used were NodeJS, VS code editor, Git Hub, and Google Drive.
+
+  
 
 
 ---
@@ -14,8 +16,9 @@
 
   * [Usage](#usage)
 
-  * [Questions](#questions)
+  * [Updates](#updates)
 
+  * [Questions](#questions)
 
 ---
   ## Installation
@@ -30,7 +33,13 @@
  
   ![usageGif](https://media.giphy.com/media/fXVSSP4Jf6YAZMcP6u/giphy.gif)
 
-  
+---
+  ## Updates
+  I've recently added badge questions to the CLI. Now you can add the correct percentage to your shiny new .MD!
+
+
+
+
 ---
   ## Questions
   
