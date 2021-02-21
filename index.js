@@ -44,15 +44,18 @@ const questions = [{
 }, {
   type: "number",
   message: "% of JS used?",
-  name: "jsBadge"
+  name: "jsBadge",
+  validate: verInput
 }, {
   type: "number",
   message: "% of CSS used?",
-  name: "cssBadge"
+  name: "cssBadge",
+  validate: verInput
 }, {
   type: "number",
   message: "% of HTML used?",
-  name: "htmlBadge"
+  name: "htmlBadge",
+  validate: verInput
 }, {
   type: "list",
   message: "How would thy like to display thy project's usage?",
