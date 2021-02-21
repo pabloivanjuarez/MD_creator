@@ -35,7 +35,7 @@
 
 ---
   ## Updates
-  I've recently added badge questions to the CLI. Now you can add the correct percentage to your shiny new .MD!
+  I've recently added badge questions to the CLI. Now you can add the correct percentage to your shiny new .MD! (2/2021)
 
 
 
