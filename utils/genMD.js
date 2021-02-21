@@ -10,7 +10,10 @@ function generateMarkdown(data) {
 
   return `
   # ${data.title}
-  ![License Badge](https://img.shields.io/badge/License-${data.license}-blue) ![Code Badge](https://img.shields.io/badge/JavaScript-100%25-green)
+  ![License Badge](https://img.shields.io/badge/License-${data.license}-blue) 
+  ![JS Badge](https://img.shields.io/badge/JavaScript-${data.jsBadge}%25-yellow)
+  ![HTML Badge](https://img.shields.io/badge/HTML-${data.htmlBadge}%25-red)
+  ![CSS Badge](https://img.shields.io/badge/CSS-${data.cssBadge}%25-purple)
   
   ## Description
 
