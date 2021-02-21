@@ -46,6 +46,10 @@ const questions = [{
   message: "% of JS used?",
   name: "jsBadge"
 }, {
+  type: "number",
+  message: "% of CSS used?",
+  name: "cssBadge"
+}, {
   type: "list",
   message: "How would thy like to display thy project's usage?",
   name: "usage",
